@@ -1,4 +1,48 @@
 /* AppHeader.module.css */
+/* This file contains the CSS styles for the App Header component, including styles for the container, navigation menu, and active link states. */
+
+.container {
+    /* Adds padding around the container for spacing */
+    padding: 5px;    
+}
+
+.navMenu {
+    /* Styles the navigation menu as a flex container */
+    display: flex;
+    /* Removes default list styling */
+    list-style-type: none;
+    /* Centers the navigation items horizontally */
+    justify-content: center;
+    /* Aligns the navigation items vertically */
+    align-items: center;
+}
+
+.navMenu a {
+    /* Sets the text color for navigation links */
+    color: #333333;
+    /* Removes underline from links */
+    text-decoration: none;
+    /* Adds horizontal spacing between links */
+    margin: 0 25px;
+    /* Makes the text bold */
+    font-weight: bold;
+    /* Sets the font size for links */
+    font-size: 16px;
+    /* Adds a smooth transition effect for color changes */
+    transition: color 0.3s ease;
+}
+
+.navMenu a:hover {
+    /* Changes the text color when hovering over links */
+    color: #000000;
+}
+
+.navMenu .active {
+    /* Highlights the active link with bold text */
+    font-weight: bold;
+    /* Adds a bottom border to indicate the active link */
+    border-bottom: 2px solid #00bcd4;
+}
 .container{
     padding: 5px;    
 }
@@ -12,7 +56,7 @@
 }
 
 .navMenu a {
-    color: #000000;
+    color: #333333;
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
@@ -21,7 +65,7 @@
 }
 
 .navMenu a:hover {
-    color: #333333  ;
+    color: #000000  ;
 }
 
 .navMenu .active {
