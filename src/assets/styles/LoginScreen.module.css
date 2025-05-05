@@ -1,10 +1,11 @@
 .card_container {
+    margin-top: 100px;
+    width: 30%;
     justify-self: center;
     background-color: white; /* White background for the card */
     padding: 10px; /* Inner spacing within the card */
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 2px 10px rgba(138, 22, 22, 0.1); /* Subtle shadow */
-    width: auto; /* Take full width on small screens */
     max-width: 400px; /* Maximum width for the card */
     text-align: center; /* Center text content inside the card */
 }
@@ -44,6 +45,7 @@ align-items: end;
     border-radius: 4px; /* Rounded corners */
     font-size: 1.1em;
     font-weight: bold;
+    margin-top: 20px;
     cursor: pointer; /* Indicate it's clickable */
     transition: background-color 0.3s ease; /* Smooth transition for background color */
     margin-bottom: 20px; /* Space below the button */
@@ -56,6 +58,40 @@ align-items: end;
 .button:active {
     background-color: #8c5d2b; /* Even darker purple when clicked */
 }
+
+
+.input_group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .input_label {
+    align-self: start;
+    font-weight: 500;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .input_field {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .input-field:focus {
+    outline: none;
+    border-color: #646cff;
+    box-shadow: 0 0 0 2px rgba(100, 108, 255, 0.2);
+  }
+
+
+
+
+
+
 
 /* Styling for the input fields container */
 .input-group {

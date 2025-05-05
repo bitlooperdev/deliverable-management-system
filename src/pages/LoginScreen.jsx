@@ -6,14 +6,15 @@ function LoginScreen() {
     <div>
     <div className={styles.card_container}>
       <h3 className={styles.title}>Authentication</h3>
+        
       <form className={styles.form}>
-      <div className={styles.inputGroup}>
-        <label htmlFor="email" className={styles.label}>Email:</label>
-        <input type="email" id="email" className={styles.input} placeholder="Enter your email" />
+      <div className={styles.input_group}>
+        <label htmlFor="email" className={styles.input_label}>Email:</label>
+        <input type="email" id="email" className={styles.input_field} placeholder="Enter your email" />
       </div>
-      <div className={styles.inputGroup}>
-        <label htmlFor="password" className={styles.label}>Password:</label>
-        <input type="password" id="password" className={styles.input} placeholder="Enter your password" />
+      <div className={styles.input_group}>
+        <label htmlFor="password" className={styles.input_label}>Password:</label>
+        <input type="password" id="password" className={styles.input_field} placeholder="Enter your password" />
       </div>
       <button type="submit" className={styles.button}>Login</button>
       </form>
