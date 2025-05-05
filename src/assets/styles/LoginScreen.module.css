@@ -1,0 +1,94 @@
+.card_container {
+    justify-self: center;
+    background-color: white; /* White background for the card */
+    padding: 10px; /* Inner spacing within the card */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(138, 22, 22, 0.1); /* Subtle shadow */
+    width: auto; /* Take full width on small screens */
+    max-width: 400px; /* Maximum width for the card */
+    text-align: center; /* Center text content inside the card */
+}
+
+
+h3 {
+    color: bl;
+}
+
+.title{
+    color: black;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin: 10px;
+}
+
+.form {
+max-width: 500px;
+align-items: end;
+}
+
+/* Styling for the SIGN IN button */
+.button {
+    width: 200px; /* Make the button take full width */
+    padding: 12px; /* Inner spacing */
+    background-color: #5c3f93; /* Purple background color (similar to image) */
+    color: white; /* White text color */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer; /* Indicate it's clickable */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+    margin-bottom: 20px; /* Space below the button */
+}
+
+.button:hover {
+    background-color: #5a35a4; /* Darker purple on hover */
+}
+
+.button:active {
+    background-color: #8c5d2b; /* Even darker purple when clicked */
+}
+
+/* Styling for the input fields container */
+.input-group {
+    margin-bottom: 20px; /* Space below each input group */
+    text-align: left; /* Align labels and inputs to the left */
+}
+
+/* Styling for labels */
+.input-group label {
+    display: block; /* Make labels block elements to put inputs on the next line */
+    margin-bottom: 8px; /* Space below the label */
+    font-weight: bold;
+    color: #333;
+}
+
+/* Styling for text and password input fields */
+.input-group input[type="text"],
+.input-group input[type="email"], /* Assuming Email input type */
+.input-group input[type="password"] {
+    width: 100%; /* Make input fields take full width of their container */
+    padding: 12px 15px; /* Inner spacing in the input field */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 4px; /* Slightly rounded corners */
+    font-size: 1em;
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+    transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+
+/* Styling for input fields when they are focused (clicked or tabbed into) */
+.input-group input[type="text"]:focus,
+.input-group input[type="email"]:focus,
+.input-group input[type="password"]:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove default browser outline */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25); /* Add a subtle shadow on focus */
+}
